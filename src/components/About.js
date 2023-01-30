@@ -6,6 +6,10 @@ import standMobile from '../mobile/image-stand-out.jpg'
 const About = () => {
   return (
     <section className="about">
+      <div className="about-img1">
+        <img src={Egg} id="img-desktop"/>
+        <img src={EggMobile} id="img-mobile"/>
+      </div>
       <div className="brand">
         <h3>Transform your brand</h3>
         <p>We are a full-service creative
@@ -15,10 +19,6 @@ const About = () => {
             that do most of the marketing for you.
         </p>
         <button>LEARN MORE</button>
-      </div>
-      <div className="about-img1">
-        <img src={Egg} id="img-desktop"/>
-        <img src={EggMobile} id="img-mobile"/>
       </div>
       <div className='about-img2'>
         <img src={Stand} id="img-desktop"/>
