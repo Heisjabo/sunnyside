@@ -7,8 +7,8 @@ const About = () => {
   return (
     <section className="about">
       <div className="about-img1">
-        <img src={Egg} id="img-desktop"/>
-        <img src={EggMobile} id="img-mobile"/>
+        <img src={Egg} id="img-desktop" alt=""/>
+        <img src={EggMobile} id="img-mobile" alt=""/>
       </div>
       <div className="brand">
         <h3>Transform your brand</h3>
@@ -21,8 +21,8 @@ const About = () => {
         <button>LEARN MORE</button>
       </div>
       <div className='about-img2'>
-        <img src={Stand} id="img-desktop"/>
-        <img src={standMobile} id="img-mobile"/>
+        <img src={Stand} id="img-desktop" alt=""/>
+        <img src={standMobile} id="img-mobile" alt=""/>
       </div>
       <div className="stand-out">
         <h3>Stand out to the right audience</h3>

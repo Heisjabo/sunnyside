@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="services">
       <div className="graphic-design">
-        <img src ={Apples}/>
+        <img src ={Apples} alt=""/>
         <div className='graphic-txt'>
         <h3>Graphic Design</h3>
         <p>Great design makes you memorable.
@@ -16,7 +16,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='photography'>
-        <img src={Orange}/>
+        <img src={Orange} alt=""/>
         <div className='photography-txt'>
         <h3>Photography</h3>
         <p>Increase your credibility by getting

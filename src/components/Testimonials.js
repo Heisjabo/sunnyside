@@ -8,7 +8,7 @@ const Testimonials = () => {
       <h2>CLIENT TESTIMONIALS</h2>
       <div className="testimonies">
         <div className="box-item">
-            <img src={Emily}/>
+            <img src={Emily} alt=""/>
             <p>We put our trust in Sunnyside
                 and they delivered, making sure
                 our needs were met and deadlines
@@ -19,7 +19,7 @@ const Testimonials = () => {
         </div>
 
         <div className="box-item">
-            <img src={Thomas}/>
+            <img src={Thomas} alt=""/>
             <p>Sunnyside's enthusiasm coupled 
                 with their keen interest in our brand's
                 success made it a satisfying and enjoyable
@@ -30,7 +30,7 @@ const Testimonials = () => {
         </div>
 
         <div className="box-item">
-            <img src={Jennie}/>
+            <img src={Jennie} alt=""/>
             <p>Incredible end result! Our sales
                 increased over 400% when we worked
                 with Sunnyside. Highly recommended!

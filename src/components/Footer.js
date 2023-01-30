@@ -7,17 +7,17 @@ import Pinterest from '../images/icon-pinterest.svg'
 const Footer = () => {
   return (
     <section className="footer">
-      <img src={Log} id="footer-logo"/>
+      <img src={Log} id="footer-logo" alt=""/>
       <ul className='footer-nav'>
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
       </ul>
       <div className='icons'>
-        <img src={Facebook}/>
-        <img src={Instagram}/>
-        <img src={Twitter}/>
-        <img src={Pinterest}/>
+        <img src={Facebook} alt=""/>
+        <img src={Instagram} alt=""/>
+        <img src={Twitter} alt=""/>
+        <img src={Pinterest} alt=""/>
       </div>
     </section>
   )

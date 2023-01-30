@@ -6,10 +6,10 @@ import SugarCubes from '../desktop/image-gallery-sugarcubes.jpg'
 const Projects = () => {
   return (
     <div className="projects">
-        <img src={Bottles}/>
-        <img src={GalleryOrange}/>
-        <img src={Cone}/>
-        <img src={SugarCubes}/>
+        <img src={Bottles} alt=""/>
+        <img src={GalleryOrange} alt=""/>
+        <img src={Cone} alt=""/>
+        <img src={SugarCubes} alt=""/>
       
     </div>
   )

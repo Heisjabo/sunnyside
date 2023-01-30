@@ -10,19 +10,19 @@ const Header = () => {
     <>
     <div className="header">
     <div className="container">
-      <img className="logo" src={Log} alt="logo"/>
-      <img src={menu} id="menu-icon" onClick={() => {
+      <img className="logo" src={Log} alt="sunnyside"/>
+      <img src={menu} alt="" id="menu-icon" onClick={() => {
         setNavOpen(!navOpen); 
       }}/>
       <ul className={navOpen ? "nav-open" : "main-nav"}>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#" id='contact'>CONTACT</a></li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+        <li id='contact'>CONTACT</li>
       </ul>
       <div className='home-text'>
         <h1>WE ARE CREATIVES</h1>
-        <img src={Arrow}/>
+        <img src={Arrow} alt=""/>
       </div>
     </div>
     </div>
