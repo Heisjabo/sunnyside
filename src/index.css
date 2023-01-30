@@ -41,7 +41,7 @@ body{
   
 }
 .main-nav li{
-  padding: 0px 30px;
+  padding: 5px 30px;
   
 }
 .main-nav li{
@@ -52,7 +52,7 @@ body{
 #contact{
   color: #000;
   background-color: #fff;
-  padding: 10px 20px;
+  padding: 4px 20px;
   font-weight: bold;
   border-radius: 30px;
   cursor: pointer;
