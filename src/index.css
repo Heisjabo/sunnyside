@@ -52,8 +52,9 @@ body{
 #contact{
   color: #000;
   background-color: #fff;
-  padding: 5px 15px;
+  padding: 7px 13px;
   font-weight: bold;
+  font-size: 18px;
   border-radius: 30px;
   cursor: pointer;
 }
@@ -165,9 +166,10 @@ body{
   background-color: transparent;
   font-family: 'Fraunces', sans-serif;
   margin-top: 20px;
-  margin-right: 245px;
+  margin-right: 210px;
   width: 100px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 /* style for services section*/
@@ -186,7 +188,7 @@ body{
 }
 .graphic-design .graphic-txt{
   position: absolute;
-  top: 400px;
+  top: 350px;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
@@ -205,7 +207,7 @@ body{
 }
 .photography-txt{
   position: absolute;
-  top: 400px;
+  top: 350px;
   padding-left: 25%;
   padding-right: 25%;
   text-align: center;
@@ -368,7 +370,7 @@ body{
   .header{
     background-image: url(./mobile/image-header.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     position: relative;
     height: 69vh; 
